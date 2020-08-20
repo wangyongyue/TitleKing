@@ -1,0 +1,5 @@
+<view class="container">
+      <text>{{index}}</text>
+      <text>{{title}}</text>
+      <button bindtap="clickTap">button</button>
+</view>

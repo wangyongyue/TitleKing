@@ -1,0 +1,13 @@
+<view class="container">
+    <scroll-view class="scroll" scroll-y="true" paingEnabled="true">
+    <block wx:for="{{list}}" wx:for-item="item">
+        <view class="bg">
+         <view class="header"></view>
+         <text class="title">{{item.title}}</text>
+       </view>
+    </block>
+    
+    </scroll-view>
+     
+      
+</view>
