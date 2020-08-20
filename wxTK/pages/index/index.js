@@ -59,6 +59,14 @@ Page({
       isMine: true
     })
   },
+  clickTapAdd: function(){
+
+    wx.navigateTo({
+      url: '../titleAdd/index'
+    })
+
+
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

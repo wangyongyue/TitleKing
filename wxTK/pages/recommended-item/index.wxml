@@ -4,15 +4,15 @@
    </view>
    <view class="content">
        <view class="left" >
-            <button class="xuanxiang" >{{contentA}}</button>
-            <button class="xuanxiang" >{{contentB}}</button>
-            <button class="xuanxiang" >{{contentC}}</button>
-            <button class="xuanxiang" >{{contentD}}</button>
+            <button id="button" class="xuanxiang" >{{contentA}}</button>
+            <button id="button" class="xuanxiang" >{{contentB}}</button>
+            <button id="button" class="xuanxiang" >{{contentC}}</button>
+            <button id="button" class="xuanxiang" >{{contentD}}</button>
       </view>
       <view class="right">
-         <button class="right-button" bindtap="clickTap">提示</button>
-         <button class="right-button" bindtap="clickTap">解答</button>
-         <button class="right-button" bindtap="clickTap">喜欢</button>
+         <button id="button" class="right-button" bindtap="clickTap">提示</button>
+         <button id="button" class="right-button" bindtap="clickTap">解答</button>
+         <button id="button" class="right-button" bindtap="clickTap">喜欢</button>
       </view>
    </view>
   

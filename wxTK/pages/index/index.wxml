@@ -16,10 +16,10 @@
   
 
   <view class="bottom">
-     <button class="button" bindtap="clickTapRe" >推荐</button>
-     <button class="button" bindtap="clickTapFo" >关注</button>
-     <!-- <button class="button" bindtap="" >添加</button> -->
-     <button class="button" bindtap="clickTapRan" >排行</button>
-     <button class="button" bindtap="clickTapMine" >我的</button>
+     <button id="button" class="button" bindtap="clickTapRe" >推荐</button>
+     <button id="button" class="button" bindtap="clickTapFo" >关注</button>
+     <button id="button" class="button" bindtap="clickTapAdd" >添加</button>
+     <button id="button" class="button" bindtap="clickTapRan" >排行</button>
+     <button id="button" class="button" bindtap="clickTapMine" >我的</button>
   </view>
 </view>
