@@ -1,7 +1,5 @@
 {
-  "component": true, 
   "usingComponents": {
-    "recommended-item":"/pages/recommended-item/index"
-
+    "test-item":"/pages/test-item/index"
   }
 }

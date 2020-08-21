@@ -10,15 +10,15 @@ Component({
   //组件的内部数据，和 properties 一同用于组件的模版渲染
   data:{
     title: "sdsdfsd",
-    list: []
+    datas: []
   },
   attached: function () { 
     this.setData({
-      list: [{name:"从小就牛逼",title:"首次正确率：20%",content:"已答题：3000"},
-      {name:"从小就牛逼",title:"首次正确率：20%",content:"已答题：3000"},
-      {name:"从小就牛逼",title:"首次正确率：20%",content:"已答题：3000"},
-      {name:"从小就牛逼",title:"首次正确率：20%",content:"已答题：3000"},
-      {name:"从小就牛逼",title:"首次正确率：20%",content:"已答题：3000"},
+      datas: [{component:"ranked-item",index:0,name:"从小就牛逼",title:"首次正确率：20%",content:"已答题：3000"},
+      {component:"ranked-item",index:1,name:"从小就牛逼",title:"首次正确率：20%",content:"已答题：3000"},
+      {component:"ranked-item",index:2,name:"从小就牛逼",title:"首次正确率：20%",content:"已答题：3000"},
+      {component:"ranked-item",index:3,name:"从小就牛逼",title:"首次正确率：20%",content:"已答题：3000"},
+      {component:"ranked-item",index:4,name:"从小就牛逼",title:"首次正确率：20%",content:"已答题：3000"},
       ]
     })
   },
@@ -26,8 +26,10 @@ Component({
   methods: {
     // 跳转活动详情  
     clickTap: function(e) {
-      this.triggerEvent('clickTap', {
-        'index': this.data.index
+      var index= e.detail['index'];
+      console.log(index)
+      wx.navigateTo({
+        url: '../logs/logs'
       })
     }
   }

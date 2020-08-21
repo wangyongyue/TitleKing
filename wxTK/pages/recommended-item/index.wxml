@@ -17,3 +17,13 @@
    </view>
   
 </view>
+
+<template name="recommended-item">
+   <recommended-item 
+                title="{{item.title}}" 
+                contentA="{{item.contentA}}"
+                contentB="{{item.contentB}}"
+                contentC="{{item.contentC}}"
+                contentD="{{item.contentD}}"
+            ></recommended-item>
+</template>

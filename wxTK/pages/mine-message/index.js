@@ -17,7 +17,6 @@ Page({
     
   },
   onLoad: function () {
-   
     var test = new Test()
     test.run(() => {
       this.setData({
